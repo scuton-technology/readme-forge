@@ -1,0 +1,57 @@
+{
+  "name": "readme-forge",
+  "version": "1.0.0",
+  "description": "AI-powered README generator. Analyze your codebase and generate professional documentation in seconds.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "readme-forge": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "dev": "tsup src/index.ts --format esm --watch",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "ai",
+    "documentation",
+    "markdown",
+    "cli",
+    "developer-tools",
+    "anthropic",
+    "claude",
+    "docs",
+    "readme-generator",
+    "open-source",
+    "typescript"
+  ],
+  "author": "Scuton Technology <info@scuton.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scuton-technology/readme-forge.git"
+  },
+  "homepage": "https://github.com/scuton-technology/readme-forge",
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "glob": "^11.0.1",
+    "ignore": "^7.0.3",
+    "ora": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.0"
+  }
+}
