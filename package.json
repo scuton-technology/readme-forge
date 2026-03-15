@@ -1,5 +1,5 @@
 {
-  "name": "@sabahattinkalkan/readme-forge",
+  "name": "@scuton/readme-forge",
   "version": "1.0.0",
   "description": "AI-powered README generator. Analyze your codebase and generate professional documentation in seconds.",
   "main": "dist/index.js",
