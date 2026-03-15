@@ -4,7 +4,7 @@
 
 **AI-powered README generator. One command. Professional docs.**
 
-[![npm](https://img.shields.io/npm/v/readme-forge)](https://www.npmjs.com/package/readme-forge)
+[![npm](https://img.shields.io/npm/v/@scuton/readme-forge)](https://www.npmjs.com/package/@scuton/readme-forge)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6)](https://www.typescriptlang.org/)
 [![CI](https://github.com/scuton-technology/readme-forge/actions/workflows/ci.yml/badge.svg)](https://github.com/scuton-technology/readme-forge/actions/workflows/ci.yml)
@@ -20,7 +20,7 @@ Writing a good README is tedious. readme-forge analyzes your project — package
 ## Install
 
 ```bash
-npm install -g readme-forge
+npm i -g @scuton/readme-forge
 ```
 
 ## Setup
