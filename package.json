@@ -1,6 +1,6 @@
 {
   "name": "@scuton/readme-forge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI-powered README generator. Analyze your codebase and generate professional documentation in seconds.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -42,6 +42,7 @@
   "type": "module",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
+    "@scuton/readme-forge": "^1.0.1",
     "chalk": "^5.4.1",
     "commander": "^13.1.0",
     "glob": "^11.0.1",
